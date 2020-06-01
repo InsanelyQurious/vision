@@ -20,7 +20,7 @@
                         <li :key="idx" v-for="(pitem, idx) in probabilities">{{pitem.label}}: {{pitem.probability.toFixed(2)}}%</li>
                     </ul>
                 </div>
-            </div>
+            </div>  
         </div>
         <div id="listOPics" v-if="list.length > 0">
             <div>Click on an image to remove (or <button type="button" v-on:click="clearImages()">Clear All</button>)</div>
